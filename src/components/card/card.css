@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card__image {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 180px;
+  background: #888888;
+}
+
+.card__info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  background: var(--black);
+  color: var(--white);
+}
+
+.card__tag {
+  margin-bottom: 3px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.card__name {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 110%;
+}
+
+.card__author {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.card__footer {
+  margin-top: auto;
+  display: flex;
+}
+
+.button__add {
+  widows: 36px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid var(--white);
+  cursor: pointer;
+}
+
+.button__active {
+  background: var(--white);
+}
